@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="477.0" prefWidth="831.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ma.mgs.magasinapplication.controller.LoginController">
+   <children>
+      <SplitPane dividerPositions="0.29797979797979796" layoutX="-3.0" layoutY="3.0" prefHeight="467.0" prefWidth="831.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="465.0" prefWidth="334.0">
+               <children>
+                  <Label layoutX="14.0" layoutY="200.0" prefHeight="66.0" prefWidth="230.0" text="Login Page" textFill="#e00b9a">
+                     <font>
+                        <Font name="Bernard MT Condensed" size="53.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <Label layoutX="25.0" layoutY="184.0" text="User_Name">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="25.0" layoutY="254.0" text="Password">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="Username" layoutX="148.0" layoutY="184.0" prefHeight="25.0" prefWidth="267.0" />
+                  <Button fx:id="loginButton" layoutX="189.0" layoutY="348.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="185.0" text="Connexion">
+                     <font>
+                        <Font name="Blackadder ITC" size="20.0" />
+                     </font>
+                  </Button>
+                  <Label layoutX="104.0" layoutY="64.0" text="Magasin Project">
+                     <font>
+                        <Font name="Bernard MT Condensed" size="55.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="cancelButton" layoutX="550.0" layoutY="2.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="29.0" text="X" textFill="#f50707">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+                  <PasswordField fx:id="Password" layoutX="148.0" layoutY="254.0" prefHeight="25.0" prefWidth="267.0" />
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
